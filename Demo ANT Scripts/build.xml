@@ -1,0 +1,11 @@
+<project name="Demo ANT Plugin" default="Demo" basedir=".">  
+    <property file="build.properties"/> 
+	<target name="Demo">  
+		<taskdef name="DemoTask" classname="com.jitendrazaa.DemoTask" classpath="${pluginFileName}"/>
+		<DemoTask description="Sample Attribute at Task level"> 
+            <DemoEntry path="c:\\FilePath\\File.txt" isFolderPath="false" />
+            <DemoEntry path="c:\\Folder" isFolderPath="true" />
+		</DemoTask>
+	</target> 
+    
+</project>  
