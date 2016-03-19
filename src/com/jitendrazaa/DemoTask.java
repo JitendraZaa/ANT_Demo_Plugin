@@ -52,6 +52,7 @@ public class DemoTask extends Task {
             DemoEntry item = it.next();
             DemoEntry newItem = new DemoEntry(item.getPath(), item.getIsFolderPath());
             newSet.add(newItem);
+            log(" ------- Reading sub tag -------- ");
             log("Path - "+item.getPath());
             log("Is Folder Path - "+item.getIsFolderPath());
         }

@@ -6,6 +6,5 @@
             <DemoEntry path="c:\\FilePath\\File.txt" isFolderPath="false" />
             <DemoEntry path="c:\\Folder" isFolderPath="true" />
 		</DemoTask>
-	</target> 
-    
+	</target>     
 </project>  
